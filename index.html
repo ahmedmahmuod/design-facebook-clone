@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/4.0.0/iconfont/material-icons.min.css" referrerpolicy="no-referrer" />
+    <!-- Google material design -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/4.0.0/iconfont/material-icons.min.css" referrerpolicy="no-referrer" />
+    <title>Facebook</title>
+</head>
+<body>
+    <!-- full Page (header - aside - content) -->
+    <div class="full-page">
+        <!-- header (logo - icons pages - icons) -->
+        <header>
+            <!-- logo and search left -->
+            <div class="logo-search">
+                <!-- logo -->
+                <div class="btn-logo">
+                    <a href="./index.html">
+                        <img 
+                            src="./images/icons/facebook-logo.jpg" 
+                            alt="logo">
+                    </a>
+                </div>
+                <!-- search -->
+                <span class="search">
+                    <label for="input">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </label>
+                    <input 
+                    type="search"
+                    placeholder="Search Facebook">
+                </span>
+            </div>
+            <!-- icons pages center -->
+            <div class="icons-pages">
+                <!-- icon home -->
+                <span class="tooltips pages home">
+                    <a href="./index.html">
+                        <span class="material-icons link">
+                            home
+                        </span>
+                        <span class="tooltiptext">Home</span>
+                    </a>
+                </span>
+                <!-- Marketplace -->
+                <span class="tooltips pages market">
+                    <a href="./index.html">
+                        <span class="material-icons-outlined link">
+                            storefront
+                        </span>
+                        <span class="tooltiptext">Marketplace</span>
+                    </a>
+                </span>
+                <!-- icon watch -->
+                <span class="tooltips pages watch-video">
+                    <a href="./index.html">
+                        <span class="material-icons-outlined link">
+                            smart_display
+                        </span>
+                        <span class="tooltiptext">Watch</span>
+                    </a>
+                </span>
+
+                <!-- icon groubs -->
+                <span class="tooltips pages groub">
+                    <a href="./index.html">
+                        <span class="material-icons link">
+                            groups
+                        </span>
+                        <span class="tooltiptext">Groubs</span>
+                    </a>
+                </span>
+                <!-- icon gaming -->
+                <span class="tooltips pages gaming">
+                    <a href="./index.html">
+                        <span class="material-icons link">
+                            videogame_asset
+                        </span>
+                        <span class="tooltiptext">Gaming</span>
+                    </a>
+                </span>
+            </div>
+
+            <!-- profile icons right -->
+            <div class="profile-icons">
+                <!-- icon meseage -->
+                <span class="meseage-icon">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                    </a>
+                </span>
+
+                <!-- icon notification -->
+                <span class="notification-icon">
+                    <i class="fa-solid fa-bell"></i>
+                </span>
+                <hr>
+                <!-- img profile -->
+                <span class="img-profile">
+                    <a href="./profile/index.html">
+                        <img 
+                        src="./images/img profile/img-profile.jpg" 
+                        alt="img-profile">
+                    </a>
+                    <h4>Ahmed</h4>
+                </span>
+
+                <!-- arrow down -->
+                <span class="arrow-down">
+                    <i class="fa-solid fa-caret-down"></i>
+                </span>
+            </div>
+        </header>
+        <section>
+            <!-- Aside left -->
+            <aside class="left">
+                <!-- Links page and saved -->
+                <div class="links">
+                    <a href="./profile/index.html" target="_blank">
+                        <span class="link profile">
+                            <img src="./images/img profile/img-profile.jpg" width="40px">
+                            <h5>Ahmed Mahmuud Saida</h5>
+                        </span>
+                    </a>
+                    <span class="link friends">
+                        <div class="container-friends">
+                            <img src="./images/icons/icon-friends.png" >
+                            <h5>Friends</h5>
+                        </div>
+                        <span>
+                            9+ New
+                        </span>
+                    </span>
+                    <span class="link saved">
+                        <div class="container-saved">
+                            <img src="./images/icons/icon-saved.png">
+                            <h5>Saved</h5>
+                        </div>
+                    </span>
+                    <span class="link page">
+                        <div class="container-page">
+                            <img src="./images/icons/icon-page.png">
+                            <h5>Pages</h5>
+                        </div>
+                    </span>
+                    <span class="link groubss">
+                        <img src="./images/icons/icon-groubs.png">
+                        <h5>Groubs</h5>
+                    </span>
+                    <span class="link marketplace">
+                        <img src="./images/icons/icon-marketplace.png">
+                        <h5>Marketplace</h5>
+                    </span>
+                    <span class="link see-more">
+                        
+                        <h5>See more
+                            <i class="fa-solid fa-angle-down"></i>
+                        </h5>
+                    </span>
+                </div>
+                <hr>
+                <br>
+                <!-- Your shortcuts side -->
+                <div class="shortcuts">
+                    <!-- title and icon -->
+                    <div class="title-shortcut">
+                        <h4>Your Shortcuts</h4>
+                        <a href="#">
+                            Edit
+                        </a>
+                    </div>
+                    <!-- Content Shortcuts -->
+                    <div class="container-short">
+                        <div class="short shortcut-one">
+                            <img src="./images/shortcuts aside left/8ball.jpg" alt="">
+                            <h4>8 Ball Pool</h4>
+                        </div>
+                        <div class="short shortcut-two">
+                            <img src="./images/shortcuts aside left/groub2.jpg" alt="">
+                            <h4>Elzero Web School</h4>
+                        </div>
+                        <div class="short shortcut-three">
+                            <img src="./images/shortcuts aside left/also7ba.jpg" alt="">
+                            <h4>الصحبه الصالحه</h4>
+                        </div>
+                        <div class="short shortcut-four">
+                            <img src="./images/shortcuts aside left/8ball.jpg" alt="">
+                            <h4>8 Ball Pool</h4>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <!-- Content -->
+            <main>
+                <!-- Cards -->
+                <div class="cards">
+                    <!-- Card creat story -->
+                    <div class="card-one card">
+                            <img src="./images/img profile/img-profile.jpg">
+                            <i class="fa-solid fa-plus"></i>
+                            <h4>Creat Story</h4>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="card-two card">
+                            <img src="./images/chats/chat2.jpg">
+                            <span>
+                                <h4>Mazen <br> Gad</h4>
+                            </span>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="card-three card">
+                            <img src="./images/chats/chat3.jpg">
+                            <span>
+                                <h4>Ghazy <br> Galal</h4>
+                            </span>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="card-four card">
+                            <img src="./images/chats/chat7.jpg">
+                            <span>
+                                <h4>Mohamed <br> Abd Elazem</h4>
+                            </span>
+                    </div>
+                    <!-- card 5 -->
+                    <div class="card-five card">
+                            <img src="./images/chats/chat1.jpg">
+                            <span>
+                                <h4>Ahmed<br>Mahmoud</h4>
+                            </span>
+                    </div>
+                    <span class="arrwo-cards">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </div>
+                <!-- posts content -->
+                <div class="posts">
+                    <!-- creat post and icons -->
+                    <div class="creat-post">
+                        <div class="creat">
+                            <img src="./images/img profile/img-profile.jpg" width="40px">
+                            <span>
+                                What's on your mind, Ahmed?
+                            </span>
+                        </div>
+                        <hr>
+                        <div class="icons-creat-post">
+                            <span class="icons-post live">
+                                <i class="fa-solid fa-video"></i>
+                                Live video
+                            </span>
+                            <span class="icons-post img-video">
+                                <i class="fa-solid fa-image"></i>
+                                Photo/video
+                            </span>
+                            <span class="icons-post feeling">
+                                <i class="fa-solid fa-face-grin-wide"></i>
+                                Feeling/activity
+                            </span>
+                        </div>
+                        <hr class="del">
+                        <div class="creat-room">
+                            <span class="room">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/>
+                                </svg>                                
+                                Creat Room
+                            </span>
+                            <span class="icons-active">
+                                <img class="one" src="./images/chats/chat3.jpg" width="40px">
+                                <img class="two" src="./images/chats/chat4.jpg" width="40px">
+                                <img class="three" src="./images/chats/chat5.jpg" width="40px">
+                                <img class="four" src="./images/chats/chat8.jpg" width="40px">
+                                <img class="five" src="./images/chats/chat7.jpg" width="40px">
+                                <img class="one" src="./images/chats/chat3.jpg" width="40px">
+                                <img class="two" src="./images/chats/chat4.jpg" width="40px">
+                                <img class="four" src="./images/chats/chat8.jpg" width="40px">
+                                <img class="five" src="./images/chats/chat7.jpg" width="40px">
+                                <img class="one" src="./images/chats/chat3.jpg" width="40px">
+                                <img class="two" src="./images/chats/chat4.jpg" width="40px">
+                            </span>
+                        </div>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+
+                    <!------------ Content Posts -------------->
+                    <!-- post one -->
+                    <div class="post post-one">
+                        <div class="post-details">
+                            <!-- img and name and date -->
+                            <div class="img-name-date">
+                                <span class="img-acc">
+                                    <img src="./images/img profile/img-profile.jpg" width="40px">
+                                </span>
+                                <span class="name-date">
+                                    <h4>
+                                        <a href="#">
+                                            Ahmed Mahmouud Saida
+                                        </a>
+                                    </h4>
+                                    
+                                    <h5>
+                                        <a href="#">
+                                            March 10 
+                                            · <i class="fa-solid fa-earth-americas"></i>
+                                        </a>
+                                    </h5>
+                                </span>
+                            </div>
+                            <!-- Icon details -->
+                            <div class="icon-details">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <!-- Description post and img post -->
+                        <div class="description-post">
+                            <div class="description">
+                                <h5>
+                                    Hey Guys, i'm ahmed mahmoud
+                                </h5>
+                            </div>
+                            <div class="img">
+                                <img src="./images/img posts/img-post1.jpg" alt="">
+                            </div>
+                        </div>
+                        <!-- Reacts haha love angry -->
+                        <div class="reacts-comments">
+                            <!-- reacts -->
+                            <div class="reacts">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <a href="#">
+                                    <h5>You, Mazen Gad and 381 Others</h5> 
+                                </a>
+                            </div>
+                            <!-- comments -->
+                            <div class="comments">
+                                <a href="#">
+                                    <h5>
+                                        153 Comments
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- Likes and comment and share -->
+                        <div class="like-comment-share">
+                            <span class="like">
+                                <i class="fa-solid fa-heart"></i>
+                                Love
+                            </span>
+                            <span class="comments">
+                                <i class="fa-solid fa-comment"></i>
+                                Comment
+                            </span>
+                            <span class="share">
+                                <i class="fa-solid fa-share"></i>
+                                Share
+                            </span>
+                        </div>
+                        <hr>
+                        <!-- img and write comment and some icons -->
+                        <div class="write-comment">
+                            <span class="img-profile-post">
+                                <img src="./images/img profile/img-profile.jpg" width="40px">
+                            </span>
+                            <span class="input-comment">
+                                <input 
+                                    type="text"
+                                    placeholder="Write a comment...">
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" class="bi bi-camera" viewBox="0 0 16 16">
+                                <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
+                                <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" class="bi bi-emoji-laughing" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zM7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                                <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- post two -->
+                    <div class="post post-two">
+                        <div class="post-details">
+                            <!-- img and name and date -->
+                            <div class="img-name-date">
+                                <span class="img-acc">
+                                    <img src="./images/img posts/img-post-2.jpg" width="40px" height="40px">
+                                </span>
+                                <span class="name-date">
+                                    <h4>
+                                        <a href="#">
+                                            Mazen Gad
+                                        </a>
+                                    </h4>
+                                    
+                                    <h5>
+                                        <a href="#">
+                                            March 25 
+                                            · <i class="fa-solid fa-gear"></i>
+                                        </a>
+                                    </h5>
+                                </span>
+                            </div>
+                            <!-- Icon details -->
+                            <div class="icon-details">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <!-- Description post and img post -->
+                        <div class="description-post">
+                            <div class="description">
+                                <h5>
+                                    You will not feel and live the tragedy of others until you see yourself in his place.!
+                                </h5>
+                            </div>
+                            <div class="img">
+                                <img src="./images/img posts/img-post-2.jpg" alt="">
+                            </div>
+                        </div>
+                        <!-- Reacts haha love angry -->
+                        <div class="reacts-comments">
+                            <!-- reacts -->
+                            <div class="reacts">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <i class="fa-solid fa-face-grin-squint"></i>
+                                <a href="#">
+                                    <h5>172</h5> 
+                                </a>
+                            </div>
+                            <!-- comments -->
+                            <div class="comments">
+                                <a href="#">
+                                    <h5>
+                                        81 Comments
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- Likes and comment and share -->
+                        <div class="like-comment-share">
+                            <span class="like">
+                                <i class="fa-solid fa-face-grin-squint"></i>
+                                HaHa
+                            </span>
+                            <span class="comments">
+                                <i class="fa-solid fa-comment"></i>
+                                Comment
+                            </span>
+                            <span class="share">
+                                <i class="fa-solid fa-share"></i>
+                                Share
+                            </span>
+                        </div>
+                        <hr>
+                        <!-- coments view -->
+                        <div class="the-comments">
+                            <!-- view some comments -->
+                            <div class="view-comments">
+                                <a href="">
+                                    <h5>
+                                        View 79 more comments
+                                    </h5>
+                                </a>
+                            </div>
+                            <!-- comment details img and name and disc -->
+                            <div class="main-comment one">
+                                <div class="comment-details">
+                                    <span class="img-comment">
+                                        <img src="./images/img profile/img-profile.jpg">
+                                    </span>
+                                    <span class="acc-comment">
+                                        <h5>
+                                            <a href="#">
+                                                Ahmed Mahmuud Saida
+                                            </a>
+                                        </h5>
+                                        
+                                        <p>
+                                            يسطا هي شغلانه كل شويه منزل صوره ليك هههههههه؟
+                                        </p>
+                                    </span> 
+                                </div>
+                                <span class="icon-option">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </span>
+                            </div>
+                            <!-- like and reply comment  -->
+                            <div class="like-reply-date">
+                                <a class="like" href="" style="color: #eee;">
+                                    <h5>
+                                        Like
+                                    </h5>
+                                </a>
+                                <a class="reply" href="">
+                                    <h5>Reply</h5>
+                                </a>
+                                <a class="date" href="">
+                                    <h5>1d</h5>
+                                </a>
+                            </div>
+                            
+                            <!-- comment details img and name and disc -->
+                            <div class="main-comment two">
+                                <div class="comment-details">
+                                    <span class="img-comment">
+                                        <img src="./images/chats/chat4.jpg">
+                                    </span>
+                                    <span class="acc-comment">
+                                        <h5>
+                                            <a href="#">
+                                                Mahmoud Hosam
+                                            </a>
+                                        </h5>
+                                        
+                                        <p>
+                                            😂❤️❤️ علفكره الصوره دي جميله جدا ياصديقي
+                                        </p>
+                                    </span>
+                                </div>
+                                <span class="icon-option">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </span>
+                            </div>
+                            <!-- like and reply comment  -->
+                            <div class="like-reply-date">
+                                <a class="like" href="" style="color: yellow;">
+                                    <h5>
+                                        HaHa
+                                    </h5>
+                                </a>
+                                <a class="reply" href="">
+                                    <h5>Reply</h5>
+                                </a>
+                                <a class="date" href="">
+                                    <h5>1d</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- img and write comment and some icons -->
+                        <div class="write-comment">
+                            <span class="img-profile-post">
+                                <img src="./images/img profile/img-profile.jpg" width="40px">
+                            </span>
+                            <span class="input-comment">
+                                <input 
+                                    type="text"
+                                    placeholder="Write a comment...">
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" class="bi bi-camera" viewBox="0 0 16 16">
+                                <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
+                                <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" class="bi bi-emoji-laughing" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zM7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                                <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- post three -->
+                    <div class="post post-three">
+                        <div class="post-details">
+                            <!-- img and name and date -->
+                            <div class="img-name-date">
+                                <span class="img-acc">
+                                    <img src="./images/img posts/f.png" width="40px">
+                                </span>
+                                <span class="name-date">
+                                    <h4>
+                                        <a href="#">
+                                            Facebook Dev
+                                            <i class="fa-solid fa-circle-check"></i>
+                                        </a>
+                                    </h4>
+                                    
+                                    <h5>
+                                        <a href="#">
+                                            Sponsored 
+                                            · <i class="fa-solid fa-earth-americas"></i>
+                                        </a>
+                                    </h5>
+                                </span>
+                            </div>
+                            <!-- Icon details -->
+                            <div class="icon-details">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <!-- Description post and img post -->
+                        <div class="description-post">
+                            <div class="description">
+                                <h5>
+                                    Developing an app or website for a political campaign, candidate, or party? Visit our Developer site to check out the policies and terms that apply when using our <a href="#">#developer</a> products:
+                                    <br>
+                                    <br>
+                                    Platform Terms: <a href="#">https://bit.ly/3HSgDr3</a> 
+                                    <br>
+                                    Developer Policies: <a href="#">https://bit.ly/3BlkYAR</a>                                 
+                                </h5>
+                            </div>
+                            <div class="img">
+                                <img src="./images/img posts/facebook-developers.jpg" alt="">
+                            </div>
+                        </div>
+                        <!-- Reacts haha love angry -->
+                        <div class="reacts-comments">
+                            <!-- reacts -->
+                            <div class="reacts">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <i class="fa-solid fa-heart"></i>
+                                <a href="#">
+                                    <h5>23K</h5> 
+                                </a>
+                            </div>
+                            <!-- comments -->
+                            <div class="comments">
+                                <a href="#">
+                                    <h5>
+                                        1k Comments
+                                    </h5>
+                                </a>
+                                <a href="#">
+                                    <h5>
+                                        29 Shares
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- Likes and comment and share -->
+                        <div class="like-comment-share">
+                            <span class="like">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                Like
+                            </span>
+                            <span class="comments">
+                                <i class="fa-solid fa-comment"></i>
+                                Comment
+                            </span>
+                            <span class="share">
+                                <i class="fa-solid fa-share"></i>
+                                Share
+                            </span>
+                        </div>
+                        <hr style="background-color: transparent;">
+                    </div>
+                    <!-- post four -->
+                    <div class="post post-four">
+                        <div class="post-details">
+                            <!-- img and name and date -->
+                            <div class="img-name-date">
+                                <span class="img-acc">
+                                    <img src="./images/img profile/FilmWood.jpg" width="40px">
+                                </span>
+                                <span class="name-date">
+                                    <h4>
+                                        <a href="#">
+                                            FilmWood
+                                        </a>
+                                    </h4>
+                                    
+                                    <h5>
+                                        <a href="#">
+                                            3h 
+                                            · <i class="fa-solid fa-earth-americas"></i>
+                                        </a>
+                                    </h5>
+                                </span>
+                            </div>
+                            <!-- Icon details -->
+                            <div class="icon-details">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <!-- Description post and img post -->
+                        <div class="description-post">
+                            <div class="description">
+                                <h5>
+                                    ❤️😍 غارفيلد وروبيرت باتينسون ... سبايدرمان وباتمان في صورة 
+                                </h5>
+                                
+                            </div>
+                            <div class="img">
+                                <img src="./images/img posts/FilmWood-img.jpg" alt="">
+                            </div>
+                        </div>
+                        <!-- Reacts haha love angry -->
+                        <div class="reacts-comments">
+                            <!-- reacts -->
+                            <div class="reacts">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <a href="#">
+                                    <h5>You, 2.4k Others</h5> 
+                                </a>
+                            </div>
+                            <!-- comments -->
+                            <div class="comments">
+                                <a href="#">
+                                    <h5>
+                                        332 Comments
+                                    </h5>
+                                </a>
+                                <a href="#">
+                                    <h5>
+                                        103 Shares
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- Likes and comment and share -->
+                        <div class="like-comment-share">
+                            <span class="like react">
+                                <i class="fa-solid fa-heart"></i>
+                                Love
+                            </span>
+                            <span class="comments react">
+                                <i class="fa-solid fa-comment"></i>
+                                Comment
+                            </span>
+                            <span class="share react">
+                                <i class="fa-solid fa-share"></i>
+                                Share
+                            </span>
+                        </div>
+                        <hr style="background-color: transparent;">
+
+                    </div>
+                    <!-- post five -->
+                    <div class="post post-five">
+                        <div class="post-details">
+                            <!-- img and name and date -->
+                            <div class="img-name-date">
+                                <span class="img-acc">
+                                    <img src="./images/img posts/Hestiabelle.png" width="40px">
+                                </span>
+                                <span class="name-date">
+                                    <h4>
+                                        <a href="#">
+                                            Hestiabelle
+                                        </a>
+                                    </h4>
+                                    
+                                    <h5>
+                                        <a href="#">
+                                            Sponsored 
+                                            · <i class="fa-solid fa-earth-americas"></i>
+                                        </a>
+                                    </h5>
+                                </span>
+                            </div>
+                            <!-- Icon details -->
+                            <div class="icon-details">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <!-- Description post and img post -->
+                        <div class="description-post">
+                            <div class="description">
+                                <h5>
+                                    Welcome to the Decentraland, Earn $MANA everyday! Rewards up to $700
+                                </h5>
+                            </div>
+                            <div class="img">
+                                <img src="./images/img posts/Hestiabelle-post.jpg" alt="">
+                                <div class="sponsoerd-post">
+                                    <span class="sponsoerd">
+                                        <p>ALPHA-DECENTRALAND.ORG</p>
+                                        <br>
+                                        <h4>Decentraland Metaverse</h4>
+                                        <br>
+                                        <p>Play & Earn $MANA token. Rewards up to 800 MA..</p>
+                                    </span>
+                                    <span class="sponsoerd-btn">
+                                        <button>
+                                            Install now
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Reacts haha love angry -->
+                        <div class="reacts-comments">
+                            <!-- reacts -->
+                            <div class="reacts">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <a href="#">
+                                    <h5>2k</h5> 
+                                </a>
+                            </div>
+                            <!-- comments -->
+                            <div class="comments">
+                                <a href="#">
+                                    <h5>
+                                        15 Comments
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- Likes and comment and share -->
+                        <div class="like-comment-share">
+                            <span class="like">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                Like
+                            </span>
+                            <span class="comments">
+                                <i class="fa-solid fa-comment"></i>
+                                Comment
+                            </span>
+                        </div>
+                        <hr style="background-color: transparent;">
+                    </div>
+                    
+                    <!-- post sex -->
+                    <div class="post post-sex">
+                        <div class="post-details">
+                            <!-- img and name and date -->
+                            <div class="img-name-date">
+                                <span class="img-acc">
+                                    <img class="profile" src="./images/img posts/img-post-2.jpg" width="40px">
+                                    <img class="groub" src="./images/img profile/front-end-dev.png">
+                                </span>
+                                <span class="name-date">
+                                    <h4>
+                                        <a href="#">
+                                            WEB DEVELOPERS
+                                        </a>
+                                    </h4>
+                                    
+                                    <h5>
+                                        <a href="#">
+                                            Mazen Gad
+                                        </a> 
+                                        
+                                        <a href="#">
+                                            ·
+                                            12h 
+                                            · <i class="fa-solid fa-earth-americas"></i>
+                                        </a>
+                                    </h5>
+                                </span>
+                            </div>
+                            <!-- Icon details -->
+                            <div class="icon-details">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <!-- Description post and img post -->
+                        <div class="description-post">
+                            <div class="description">
+                                <h5 style="text-align: end; width: 100%;">
+                                    السلام عليكم 
+                                    محتاجين مطورين كالآتي خبره علي الأقل سنه 
+                                    <br>
+                                    <span style="text-align: start; width: 100%;">
+                                        <li>Front End Developer</li>
+                                        <li>Back End Developer</li>
+                                        <li>Flutter Developer</li>
+                                        <li>Javascript Developer</li>
+                                        <li>PHP Developer</li>
+                                        <li>Graphic Designer</li>
+                                        <br>
+                                        <li style=
+                                            "list-style-type: none;
+                                            text-decoration: none;">
+                                        <a style="font-weight: bold; color: #eee;"
+                                            href="">..See More</a>
+                                        </li>
+                                        
+                                    </span>
+                                </h5>
+                            </div>
+                            <div class="img">
+                                <img src="./images/img posts/i need dev" alt="">
+                            </div>
+                        </div>
+                        <!-- Reacts haha love angry -->
+                        <div class="reacts-comments">
+                            <!-- reacts -->
+                            <div class="reacts">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <i class="fa-solid fa-heart"></i>
+                                <a href="#">
+                                    <h5>You, and 23 Others</h5> 
+                                </a>
+                            </div>
+                            <!-- comments -->
+                            <div class="comments">
+                                <a href="#">
+                                    <h5>
+                                        56 Comments
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- Likes and comment and share -->
+                        <div class="like-comment-share">
+                            <span class="like">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                Like
+                            </span>
+                            <span class="comments">
+                                <i class="fa-solid fa-comment"></i>
+                                Comment
+                            </span>
+                        </div>
+                        <hr>
+                        <!-- coments view -->
+                        <div class="the-comments">
+                            <!-- view some comments -->
+                            <div class="view-comments">
+                                <a href="">
+                                    <h5>
+                                        View 53 more comments
+                                    </h5>
+                                </a>
+                            </div>
+                            <!-- comment details img and name and disc -->
+                            <div class="main-comment one">
+                                <div class="comment-details">
+                                    <span class="img-comment">
+                                        <img src="./images/chats/chat6.jpg">
+                                    </span>
+                                    <span class="acc-comment">
+                                        <h5>
+                                            <a href="#">
+                                                Mahmoud Fathy
+                                            </a>
+                                        </h5>
+                                        
+                                        <p style="text-align: start;">
+                                            details <br>
+                                            i'm front end , <br>
+                                            I sent my cv to private
+                                        </p>
+                                    </span> 
+                                </div>
+                                <span class="icon-option">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </span>
+                            </div>
+                            <!-- like and reply comment  -->
+                            <div class="like-reply-date">
+                                <a class="like" href="" style="color: #eee;">
+                                    <h5>
+                                        Like
+                                    </h5>
+                                </a>
+                                <a class="reply" href="">
+                                    <h5>Reply</h5>
+                                </a>
+                                <a class="date" href="">
+                                    <h5>1d</h5>
+                                </a>
+                            </div>
+                            
+                            <!-- comment details img and name and disc -->
+                            <div class="main-comment two">
+                                <div class="comment-details">
+                                    <span class="img-comment">
+                                        <img src="./images/chats/chat8.jpg">
+                                    </span>
+                                    <span class="acc-comment">
+                                        <h5>
+                                            <a href="#">
+                                                Kha Led
+                                            </a>
+                                        </h5>
+                                        
+                                        <p>
+                                            أنا مبرمج موبايل اندرويد بلغه كوتلين , ينفع ولا لا يابشمهندس ؟
+                                        </p>
+                                    </span>
+                                </div>
+                                <span class="icon-option">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </span>
+                            </div>
+                            <!-- like and reply comment  -->
+                            <div class="like-reply-date">
+                                <a class="like">
+                                    <h5>
+                                        HaHa
+                                    </h5>
+                                </a>
+                                <a class="reply" href="">
+                                    <h5>Reply</h5>
+                                </a>
+                                <a class="date" href="">
+                                    <h5>1d</h5>
+                                </a>
+                            </div>
+                            <div class="main-comment two">
+                                <div class="comment-details">
+                                    <span class="img-comment">
+                                        <img src="./images/chats/chat4.jpg">
+                                    </span>
+                                    <span class="acc-comment">
+                                        <h5>
+                                            <a href="#">
+                                                Mahmoud Hosam
+                                            </a>
+                                        </h5>
+                                        
+                                        <p>
+                                            انا بعت لحضرتك السي في بتاعي , انا بشتغل فلاتر ديفلوبر
+                                        </p>
+                                    </span>
+                                </div>
+                                <span class="icon-option">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </span>
+                            </div>
+                            <!-- like and reply comment  -->
+                            <div class="like-reply-date">
+                                <a class="like">
+                                    <h5>
+                                        HaHa
+                                    </h5>
+                                </a>
+                                <a class="reply" href="">
+                                    <h5>Reply</h5>
+                                </a>
+                                <a class="date" href="">
+                                    <h5>1d</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- img and write comment and some icons -->
+                        <div class="write-comment">
+                            <span class="img-profile-post">
+                                <img src="./images/img profile/img-profile.jpg" width="40px">
+                            </span>
+                            <span class="input-comment">
+                                <input 
+                                    type="text"
+                                    placeholder="Write a comment...">
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" class="bi bi-camera" viewBox="0 0 16 16">
+                                <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
+                                <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" class="bi bi-emoji-laughing" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zM7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                                <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- post seven -->
+                    <div class="post post-seven">
+                        <div class="post-details">
+                            <!-- img and name and date -->
+                            <div class="img-name-date">
+                                <span class="img-acc">
+                                    <img src="./images/chats/chat7.jpg" width="40px">
+                                </span>
+                                <span class="name-date">
+                                    <h4>
+                                        <a href="#">
+                                            Mohamed Abd Elazem
+                                        </a>
+                                    </h4>
+                                    
+                                    <h5>
+                                        <a href="#">
+                                            1d 
+                                            · <i class="fa-solid fa-user-group"></i>
+                                        </a>
+                                    </h5>
+                                </span>
+                            </div>
+                            <!-- Icon details -->
+                            <div class="icon-details">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <!-- Description post and img post -->
+                        <div class="description-post">
+                            <div class="description">
+                                <h5 style="text-align: end;">
+                                    قال رسول الله ﷺ :أَكثِروا الصَّلاةَ عليَّ يوم الجمعةِ وليلةَ الجمعة فمن صلَّى عليَّ صلاةً صلَّى اللَّهُ عليْهِ عشرًا " اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكَ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ" 
+                                    
+                                </h5>
+                            </div>
+                            <div class="img">
+                                <img src="./images/img posts/gom3a-mobarka.jpg" alt="">
+                            </div>
+                        </div>
+                        <!-- Reacts haha love angry -->
+                        <div class="reacts-comments">
+                            <!-- reacts -->
+                            <div class="reacts">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                                <a href="#">
+                                    <h5>You, and 53 Others</h5> 
+                                </a>
+                            </div>
+                            <!-- comments -->
+                            <div class="comments">
+                                <a href="#">
+                                    <h5>
+                                        86 Comments
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- Likes and comment and share -->
+                        <div class="like-comment-share">
+                            <span class="like">
+                                <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                                Care
+                            </span>
+                            <span class="comments">
+                                <i class="fa-solid fa-comment"></i>
+                                Comment
+                            </span>
+                            <span class="share">
+                                <i class="fa-solid fa-share"></i>
+                                Share
+                            </span>
+                        </div>
+                        <hr style="background-color: transparent;">
+                    </div>
+                    <!-- post eight -->
+            <div class="post post-eight">
+                <div class="post-details">
+                    <!-- img and name and date -->
+                    <div class="img-name-date">
+                        <span class="img-acc">
+                            <img src="./images/img posts/mazen.jpg" width="40px">
+                        </span>
+                        <span class="name-date">
+                            <div class="name">
+                                <h4>
+                                    <a href="#">
+                                        Mazen Gad
+                                    </a>
+                                </h4>
+                                <h4 class="update-pic">
+                                    updated his profile picture.
+                                </h4>
+                            </div>
+                            
+                            <h5>
+                                <a href="#" style="color: royalblue;">
+                                    Now 
+                                    · <i class="fa-solid fa-earth-americas"></i>
+                                </a>
+                            </h5>
+                        </span>
+                    </div>
+                    <!-- Icon details -->
+                    <div class="icon-details">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                <!-- Description post and img post -->
+                <div class="description-post">
+                    <div class="description">
+                        <h5>
+                            If you want to be strong, learn how to fight yourself
+                        </h5>
+                    </div>
+                    <div class="img">
+                        <img src="./images/img posts/mazen.jpg" alt="">
+                    </div>
+                </div>
+                <!-- Reacts haha love angry -->
+                <div class="reacts-comments">
+                    <!-- reacts -->
+                    <div class="reacts">
+                        <i class="fa-solid fa-heart"></i>
+                        <a href="#">
+                            <h5>you, and 10 others</h5> 
+                        </a>
+                    </div>
+                    <!-- comments -->
+                    <div class="comments">
+                        <a href="#">
+                            <h5>
+                                2 Comments
+                            </h5>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <!-- Likes and comment and share -->
+                <div class="like-comment-share">
+                    <span class="like">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        Like
+                    </span>
+                    <span class="comments">
+                        <i class="fa-solid fa-comment"></i>
+                        Comment
+                    </span>
+                    <span class="share">
+                        <i class="fa-solid fa-share"></i>
+                        Share
+                    </span>
+                </div>
+                <hr style="background-color: transparent;">
+            </div>
+
+                    <!-- -- Last Page Finish -- -->
+                    <div class="under-page">
+                        <h1 class="finish-post">Posts finished</h1>
+                        <button class="back-to-up">
+                            <a href="./index.html">
+                                Back to up
+                                <i class="fa-solid fa-arrow-turn-up"></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </main>
+            
+            <!-- Aside right -->
+            <aside class="right">
+                <!-- Birthday -->
+                <div class="your-pages birthday">
+                    <h4>Birthdays</h4>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="birthdays">
+                    <div class="details-birthday">
+                        <img 
+                            src="./images/icons/birthday-icon.png" 
+                            alt="">
+                            <p>
+                                <a href="./index.html">Mazen</a> ,
+                                <a href="./index.html">Mohamed</a> and 
+                                <a href="./index.html">8 other</a> have birthdays today
+                            </p>
+                    </div>
+                </div>
+                <hr>
+                <!-- your pages -->
+                <div class="your-pages pag">
+                    <h4>Your Pages</h4>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="container-pages">
+                    <!-- pages links & img -->
+                    <div class="my-pages">
+                        <span class="details">
+                            <img src="./images/pages/page1.jpg" alt="">
+                            <h5>Best Store</h5>
+                        </span>
+                        <!-- notification and mesages -->
+                        <span class="icons one">
+                            <i class="fa-solid fa-bell"></i>
+                            <i class="fa-solid fa-message"></i>
+                        </span>
+                    </div>
+
+                    <div class="my-pages">
+                        <span class="details">
+                            <img src="./images/pages/page2.jpg" alt="">
+                            <h5>Programming</h5>
+                        </span>
+                        <!-- notification and mesages -->
+                        <span class="icons two">
+                            <i class="fa-solid fa-bell"></i>
+                            <i class="fa-solid fa-message"></i>
+                        </span>
+                    </div>
+    
+                    <div class="my-pages">
+                        <span class="details">
+                            <img src="./images/pages/page3.jpg" alt="">
+                            <h5>King Store</h5>
+                        </span>
+                        <!-- notification and mesages -->
+                        <span class="icons three">
+                            <i class="fa-solid fa-bell"></i>
+                            <i class="fa-solid fa-message"></i>
+                        </span>
+                    </div>
+    
+                    <div class="my-pages">
+                        <span class="details">
+                            <img src="./images/pages/page4.jpg" alt="">
+                            <h5>Saida Tech</h5>
+                        </span>
+                        <!-- notification and mesages -->
+                        <span class="icons four">
+                            <i class="fa-solid fa-bell"></i>
+                            <i class="fa-solid fa-message"></i>
+                        </span>
+                    </div>
+                </div>
+                <hr>
+                <!-- your pages -->
+                <div class="your-pages cont">
+                    <h4>Your Contact</h4>
+                    <div class="contact-icons">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                <div class="container-contact">
+                    <!-- My Contact -->
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat1.jpg">
+                            <h5>Ahmed Mahmoud Saida</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat2.jpg">
+                            <h5>Mazen Gad</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat3.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Ghazy Galal</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat4.jpg">
+                            <h5>Mahmoud Hosam</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat5.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Gasser M. Fahmy</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat6.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Mahmoud A.Fathy</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>    
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat7.jpg">
+                            <h5>Mohamed Abd Elazeem</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat8.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Mostafa Fahed </h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat1.jpg">
+                            <h5>Ahmed Mahmoud Saida</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat2.jpg">
+                            <h5>Mazen Gad</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat3.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Ghazy Galal</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat4.jpg">
+                            <h5>Mahmoud Hosam</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat5.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Gasser M. Fahmy</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat6.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Mahmoud A.Fathy</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>    
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat7.jpg">
+                            <h5>Mohamed Abd Elazeem</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat8.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Mostafa Fahed </h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat1.jpg">
+                            <h5>Ahmed Mahmoud Saida</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat2.jpg">
+                            <h5>Mazen Gad</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat3.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Ghazy Galal</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat4.jpg">
+                            <h5>Mahmoud Hosam</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat5.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Gasser M. Fahmy</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat6.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Mahmoud A.Fathy</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>    
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat7.jpg">
+                            <h5>Mohamed Abd Elazeem</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat8.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Mostafa Fahed </h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat1.jpg">
+                            <h5>Ahmed Mahmoud Saida</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat2.jpg">
+                            <h5>Mazen Gad</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat3.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Ghazy Galal</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat4.jpg">
+                            <h5>Mahmoud Hosam</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat5.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Gasser M. Fahmy</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat6.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Mahmoud A.Fathy</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>    
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat7.jpg">
+                            <h5>Mohamed Abd Elazeem</h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                    <div class="my-contact">
+                        <span class="details contact">
+                            <img 
+                                src="./images/chats/chat8.jpg"
+                                style="border: 2px solid royalblue;">
+                            <h5>Mostafa Fahed </h5>
+                        </span>
+                        <!-- icons call -->
+                        <span class="icons-call">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                    </div>
+                </div>
+                <hr>
+                <!-- Group conversations -->
+                <div class="your-pages mygroubs">
+                    <h4>Group conversations</h4>
+                </div>
+                <div class="groubs">
+                    <div class="container-groubs">
+                        <img src="./images/groubs/groub-one.png">
+                        <h5>¬[=OS=]¬ CLAN</h5>
+                    </div>
+                    <div class="container-groubs">
+                        <img src="./images/groubs/groub2.jpg">
+                        <h5>Elzero Web School</h5>
+                    </div>
+                    <div class="container-groubs">
+                        <img src="./images/groubs/groub3.jpg">
+                        <h5>My Friends</h5>
+                    </div>
+                    <div class="container-groubs">
+                        <img src="./images/groubs/grad.png">
+                        <h5>University friends</h5>
+                    </div>
+                </div>
+            </aside>
+        </section>
+            
+    </div>
+</body>
+</html>

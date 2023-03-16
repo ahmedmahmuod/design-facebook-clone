@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');  
+
+
+/* basics */
+:root {
+/* background color */
+    --background-color-body: #1a1a1a;
+    --background-color-form-sign-in: #1a1a1a;
+    --background-color-cards: #ffffff;
+
+/* font family */
+    --font-family-title: 'Noto Sans', sans-serif;
+    /* --font-family-title: gray; */
+    --font-family-paragraph: 'Roboto Mono', monospace;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color-body);
+}
+
+/* ------------ page full ----------- */
+/* page */
+
+/* section */
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(8,auto);
+    column-gap: 100px;
+}
+
+/* logo-details */
+.logo-details {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.logo {
+    color: #ffffff;
+}
+
+.logo .logo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #166FE5;
+    font-size: 3.5em;
+} 
+
+.logo .title {
+    font-weight: bold;
+    font-family: var(--font-family-title);
+}
+.logo p {
+    font-weight: 100;
+    font-family: var(--font-family-paragraph);
+}
+
+/* form */
+.form-sign-in {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-self: center;
+}
+/* sign in form */
+.form-sign-in form {
+    background-color: var(--background-color-form-sign-in);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    border-radius: 8px;
+    row-gap: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 27px -8px #545454;
+    width: fit-content;
+
+}
+
+
+form input,button {
+    caret-color: #1252a5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width: 300px;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .3s;
+}
+form input:focus {
+    box-shadow: 0px 0px 5px 2px #166FE5;
+}
+
+.forget-pw {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    margin-bottom: 7px;
+    text-decoration: none;
+    color: #166FE5;
+    font-size: 15px;
+}
+::placeholder {
+    color: rgb(131, 131, 131);
+}
+.btn-sign-in {
+    margin-top: 7px;
+    cursor: pointer;
+    background-color: #166FE5;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    transition: .3s;
+}
+.btn-sign-in:hover {
+    background-color: #1252a5;
+}
+
+.form-sign-in form hr {
+    border: none;
+    background-color: gray;
+    height: 1px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.btn-sign-up{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-top: 7px;
+    width: 195px;
+    cursor: pointer;
+    background-color: #42b72a;
+    color: #ffffff;
+    font-size: 15px;
+    transition: .3s;
+}
+.btn-sign-up:hover {
+    background-color: #339120;
+}
+
+/* creat page busniess */
+.creat-page {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;    
+    
+}
+.creat-page span {
+    font-size: 15px;
+}
+.creat-page a {
+    font-weight: bold;
+    color: #166fe5;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+/* -------- cards ------- */
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(63, 63, 63);
+}
+
+.cards img {
+    border-radius: 8px;
+    width: 100%;    
+}
+/* card 1 */
+.card {
+    background-color: var(--background-color-cards);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+}
+.card p {
+    padding: 8px;
+}
+.card:hover {
+    transform: scale(1.01 , 1.01);
+    box-shadow: 0px 0px 17px -5px #8f8f8f;
+}
+/* notofication */
+.one::before {
+    content: "9+";
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: red;
+}
+.three::before {
+    content: "2";
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: red;
+}
+/* add to trash */
+.fa-trash {
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    color: white;
+    font-size: 30px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.card:hover .fa-trash {
+    opacity: 1;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+.fa-trash:hover {
+    color: red;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(20deg);
+
+    }
+    100% {
+        transform: rotate(-20deg);
+    }
+    
+}
+/* card add account */
+.cards .add {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 211px;
+    background-color: #1a1a1a;
+    border: 1px solid #8080802e;
+}
+
+.add-icon {
+    transform: translateY(65px);
+}
+.fa-plus {
+    font-size: 40px;
+    color: #166FE5;
+}
+.add p {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #ffffff;
+    color: #166FE5;
+}
+
+/* Media Quiry */
+@media (max-width: 1000px) {
+    section {
+        column-gap: 50px;
+    }
+}
+
+@media (max-width: 950px) {
+    section {
+        column-gap: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    section {
+        grid-template-columns: auto;
+        row-gap: 40px;
+        text-align: center;
+    }
+    .form-sign-in form {
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+    .creat-page {
+        text-align: center;
+        grid-column-start: 3;
+        grid-column-end: 1;
+        color: #ffffff;
+        margin-top: 20px;    
+    }
+}
+
+@media (max-width: 540px) {
+    .cards {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 380px) {
+    .cards {
+        grid-template-columns: auto;
+        margin: auto;
+        width: 150px;
+    }
+}
+
+@media (max-width: 364px) {
+    .logo-details {
+        font-size: 12px;
+    }
+    .logo-details .logo .logo {
+        font-size: 40px;
+    }
+
+    .form-sign-in form {
+        grid-template-columns: auto auto auto auto;
+        margin-right: 40px;
+    }
+
+    form input,button {
+        margin: auto;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        width: 200px;
+        font-size: 10px;
+        padding: 10px 5px;
+    }    
+
+    .btn-sign-up {
+        width: 130px;
+    }
+
+    ::placeholder {
+        font-size: 12px;
+    }
+
+    .creat-page {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media (max-width: 300px) {
+    .form-sign-in form {
+        grid-template-columns: auto auto auto auto;
+        margin-right: 30px;
+    }    
+}
+
+@media (max-width: 267px) {
+    .form-sign-in form {
+        grid-template-columns: auto auto auto auto;
+        margin-right: 15px;
+    }    
+}
+
+@media (max-width: 250px) {
+    .form-sign-in form {
+        grid-template-columns: auto auto auto auto;
+        margin-right: 5px;
+    }    
+}
